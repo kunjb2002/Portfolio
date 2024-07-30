@@ -3988,6 +3988,12 @@ input[type="button"].btn--primary:focus {
     overflow: hidden;
 }
 
+.folio-item__thumb img {
+    width: 300px;
+    height: 350px;
+    object-fit: cover; /* Optional: to maintain aspect ratio while fitting the container */
+}
+
 .folio-item__thumb::before {
     z-index: 1;
     content: "";
