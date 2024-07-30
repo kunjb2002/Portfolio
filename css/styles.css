@@ -2561,9 +2561,9 @@ input[type="button"].btn--primary:focus {
 }
 
 .skill-bars-fat li {
-    height: 5.2rem;
+    height: 4.0rem;
     background: transparent;
-    margin-bottom: 5.2rem;
+    margin-bottom: 4.0rem;
     padding: 0;
     position: relative;
 }
@@ -3789,9 +3789,9 @@ input[type="button"].btn--primary:focus {
 
 .s-about__pic {
     width: var(--vspace-5);
-    height: var(--vspace-5);
-    border: 1.6rem solid rgba(255, 255, 255, 0.02);
-    border-radius: 50%;
+    height: var(--vspace-6);
+    border: 1.2rem solid rgba(255, 255, 255, 0.02);
+    border-radius: 25%;
 }
 
 .s-about__content-bottom {
@@ -4247,6 +4247,21 @@ input[type="button"].btn--primary:focus {
 
 .col-twelve{
     width: 100%;
+    margin-inline: auto;
+    border: 1px solid #000;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+.twelve{
+    margin-inline: auto;
+    border: 1px solid #000;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
 }
 
 #activities .section-intro p {
@@ -4266,7 +4281,11 @@ p.lead {
 
 .columns{
     display: block;
-    position: relative;
+    margin-inline: auto;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid #000;
     color: rgba(245, 245, 245, 0.534);
     padding: 0 20px;
     margin-left: 0;
@@ -4277,6 +4296,7 @@ p.lead {
 
 .row .twelve{
     width: 100%;
+
 }
 
 #activites .info {
@@ -4629,6 +4649,8 @@ p.lead {
     flex-flow: row wrap;
     margin: 0 0 0 .4rem;
     position: relative;
+    align-items: center;
+    justify-content: center;
     top: -6%;
 }
 
