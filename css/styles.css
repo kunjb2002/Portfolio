@@ -3447,7 +3447,7 @@ input[type="button"].btn--primary:focus {
     bottom: 0;
     width: 100%;
     height: 100%;
-    background-image: url(../images/header-bg-3000.jpg);
+    background-image: url(../images/Mt.Rainer.jfif);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -4238,6 +4238,21 @@ input[type="button"].btn--primary:focus {
     }
 }
 
+/* .activites_img{
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/testimonials-bg-3000.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+} */
+
 .section-intro{
     max-width: 700px;
     margin-left: auto;
@@ -4254,7 +4269,7 @@ input[type="button"].btn--primary:focus {
 .col-twelve{
     width: 100%;
     margin-inline: auto;
-    border: 1px solid #000;
+    border: 1px solid transparent;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -4263,7 +4278,7 @@ input[type="button"].btn--primary:focus {
 
 .twelve{
     margin-inline: auto;
-    border: 1px solid #000;
+    border: 1px solid transparent;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -4291,7 +4306,7 @@ p.lead {
     justify-content: space-evenly;
     align-items: center;
     flex-direction: column;
-    border: 1px solid #000;
+    border: 1px solid transparent;
     color: rgba(245, 245, 245, 0.534);
     padding: 0 20px;
     margin-left: 0;
