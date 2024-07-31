@@ -3791,7 +3791,7 @@ input[type="button"].btn--primary:focus {
     width: var(--vspace-5);
     height: var(--vspace-6);
     border: 1.2rem solid rgba(255, 255, 255, 0.02);
-    border-radius: 25%;
+    border-radius: 40%;
 }
 
 .s-about__content-bottom {
