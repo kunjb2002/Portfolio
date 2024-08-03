@@ -1,3 +1,9 @@
+Hello, 
+
+This is my personal Portfolio. Design by StyleShout and template CEEVEE. I have gave my Personal
+touch and edited content and style of it. Hope you like it. 
+
+
 ==================================================================================================
 
 DESCRIPTION:
